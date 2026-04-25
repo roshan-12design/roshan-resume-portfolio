@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roshan Kumar Portfolio</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background: #0f172a;
+        color: white;
+        scroll-behavior: smooth;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+        background: #020617;
+        position: sticky;
+        top: 0;
+    }
+
+    header img {
+        height: 50px;
+    }
+
+    nav a {
+        color: white;
+        margin-left: 20px;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    nav a:hover {
+        color: #38bdf8;
+    }
+
+    section {
+        padding: 60px 20px;
+        text-align: center;
+        animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+        from {opacity: 0; transform: translateY(20px);}
+        to {opacity: 1; transform: translateY(0);}
+    }
+
+    .profile img {
+        width: 180px;
+        border-radius: 50%;
+        margin-top: 20px;
+        border: 3px solid #38bdf8;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+        color: #38bdf8;
+    }
+
+    .card {
+        background: #1e293b;
+        margin: 15px auto;
+        padding: 20px;
+        border-radius: 10px;
+        width: 80%;
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+        background: #334155;
+    }
+
+    footer {
+        background: #020617;
+        padding: 20px;
+        text-align: center;
+    }
+
+    a.email {
+        color: #38bdf8;
+        text-decoration: none;
+    }
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <img src="logo.jpg" alt="Logo">
+    <nav>
+        <a href="#about">About</a>
+        <a href="#habits">Habits</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+    <h1>About Me</h1>
+    <div class="profile">
+        <img src="roshan.png" alt="My Photo">
+        <p>Hello! I am Roshan Kumar.I am a student studying in 10th class.
+		I am passionate about learning new things and improving my skills everyday.
+		I enjoy both studies and activities that help me grow as a person.</p>
+    </div>
+</section>
+
+<!-- HABITS -->
+<section id="habits">
+    <h1>My Habits</h1>
+    <div class="card">🎮 Playing Mobile Games.</div>
+    <div class="card">♟ Playing Chess.</div>
+    <div class="card">📚 Learning New Technology.</div>
+	<div class="card">🌆 Watching educational videos.</div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements">
+    <h1>My Achievements</h1>
+    <div class="card">💻 Learned Basic Python & HTML.</div>
+    <div class="card">🎯 Scored 90% in Class 9.</div>
+    <div class="card">🖥 Learned Basic Computer Skills.</div>
+	<div class="card">🌐🌐I made my first portfolio website. </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+    <h1>Education</h1>
+    <div class="card">
+        📍 Studying in Class 10 <br>
+        🏫 CM shri school , d-1 Nand Nagri School
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h1>Contact Me</h1>
+    <p>Email me at:</p>
+    <a class="email" href="mailto:roshankumar89559@gmail.com">
+        roshankumar89559@gmail.com
+	<h6>"feel free to contact me anytime"	
+    </a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Roshan Kumar | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
